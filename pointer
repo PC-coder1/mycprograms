@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main () {
+    int result=765;
+    int marks=89;
+    int *ptrResult=&result;
+    printf("value of result:%d\n", result); //765
+    printf("value of *ptrResult: %d\n", *ptrResult); //765
+
+    printf("value of ptrResult: %d\n", *ptrResult);
+    printf("address of result: %p\n", &result);
+
+
+    char ch= 'c';
+    char *ptrch = &ch;
+    printf("value of ch: %c\n", ch);
+    printf("value of *ptrch: %c\n", *ptrch);
+    printf("value of *ptrch: %d\n", ptrch);
+
+void * ptr = NULL;
+ptr= &result; ///implicit typecasting
+printf("\n value of *ptr: %d\n", *(int *)ptr);
+
+ptr= &ch; /// implicit typecasting
+printf("\n value of *ptr: %c\n", *(char *)ptr);
+
+int * ptrNewPointer = (int * )ptr;
+printf("\n value of *ptrNewPointer: %c\n", *ptrNewPointer);
+}
