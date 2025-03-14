@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//malloc is dynamic memory allocation. when we want use it we just call it. 
 int main()
 {
     //1) creating one integer
