@@ -12,7 +12,7 @@ int main() {
 int x=20;
 int *ptr = &x; // *ptr= it is pointer that stores address of x. so we are telling compiler to store address of int x.
   int y;
-  y= *p; // here y will store value of x with help of pointer "ptr"
+  y= *ptr; // here y will store value of x with help of pointer "ptr"
   
 printf("\n%d", *ptr);  //*ptr means access the value of x
 printf("\n%d", ptr); // ptr means access the address of x
