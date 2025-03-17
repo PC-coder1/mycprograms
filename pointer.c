@@ -16,6 +16,7 @@ int *ptr = &x; // *ptr= it is pointer that stores address of x. so we are tellin
   
 printf("\n%d", *ptr);  //*ptr means access the value of x
 printf("\n%d", ptr); // ptr means access the address of x
+printf("\n%d", y); /// y=20
 
 printf("\n%d", x); /// x=20
 printf("\n%d", &x); ///address of x
