@@ -31,7 +31,7 @@ int main()
     printf("values at table four: %d\n", table[3]);
     printf("values at table five: %d\n", table[4]);
 
-    /// 5) freeing memory
+    /// 5) freeing memory, deallocation of memory.
 
     free(table);
 }
