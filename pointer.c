@@ -2,7 +2,7 @@
 
 /*here we i have demonstrated pointer.instead of writing x multiple times
 we use pointer to refer to the same memory location. we can change value of x
-by updatint *ptr, avoiding redundant variable declarations.
+by updating *ptr, avoiding redundant variable declarations. by default value of pointer is "Garbage"
  */
 
 
