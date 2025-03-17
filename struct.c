@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+// to access the structure with pointer we use '->'.  eg.p2.a=
 //define structures
 struct studentz{
 int  rollno;
